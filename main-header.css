@@ -1,0 +1,38 @@
+.main-header {
+    list-style-type: none;
+  background-color: #ede1d0;
+  margin: 0;
+  padding: 7px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.main-header img {
+    height: 100%;
+    width: 35px;
+    
+}
+.main-header li {
+    float: left;
+}
+.main-header .mhimg {
+    display:inline-block;
+    margin: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #494540;
+    border-radius: 10px;
+}
+.main-header .mhet {
+    text-align: center;
+    color: #494540;
+    padding: 10px;
+    text-decoration: none;
+    margin:10px;
+    font-size: 24px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #494540;
+    border-radius: 10px;
+}
