@@ -1,14 +1,22 @@
+@font-face {
+    font-family: 'Metropolitano';
+    src: url("Metropolitano-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Metropolitano Bold';
+    src: url("Metropolitano-Bold.ttf") format("truetype");
+}
+
 body {
     background-color: #f4ece1;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Metropolitano', Arial, sans-serif;
 }
 nav {
     list-style-type: none;
     display: flex;
 }
 .important {
-    font-family: monospace;
     color: #85807a;
     margin:20px;
 }

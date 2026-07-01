@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Metropolitano';
+    src: url("Metropolitano-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Metropolitano Bold';
+    src: url("Metropolitano-Bold.ttf") format("truetype");
+}
 .main-header {
     list-style-type: none;
     margin: 0;
@@ -15,6 +23,7 @@
     height: 100%;
     align-items: right;
     justify-content: right;
+    font-family: 'Metropolitano Bold';
 }
 .main-header .main-header-buttons .main-header-links {
     display: flex;
