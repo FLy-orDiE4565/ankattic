@@ -6,7 +6,10 @@
     font-family: 'Metropolitano Bold';
     src: url("Metropolitano-Bold.ttf") format("truetype");
 }
-
+@font-face {
+    font-family: 'Neo Euler';
+    src: url("euler.otf") format("opentype");
+}
 body {
     background-color: #f4ece1;
     margin: 0;
@@ -15,6 +18,13 @@ body {
 nav {
     list-style-type: none;
     display: flex;
+}
+#logo {
+    text-decoration: none;
+    text-align:center;
+    font-family: 'Neo Euler', Times, serif;
+    font-size:24px;
+    color:#092749
 }
 .important {
     color: #85807a;
