@@ -3,7 +3,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+nav {
+    list-style-type: none;
+    display: flex;
+}
 .imptor {
     font-family: monospace;
     color: #85807a;

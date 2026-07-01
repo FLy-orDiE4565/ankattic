@@ -1,24 +1,35 @@
 .main-header {
     list-style-type: none;
-  background-color: #ede1d0;
-  margin: 0;
-  padding: 7px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  height: 100px;
+    margin: 0;
+    padding: 7px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #494540;
+}
+.main-header .main-header-buttons {
+    display: flex;
+    height: 100%;
+    align-items: right;
+    justify-content: right;
+}
+.main-header .main-header-buttons .main-header-links {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .main-header img {
-    height: 100%;
-    width: 35px;
-    
-}
-.main-header li {
-    float: left;
+    height: 35px;
+    width: 100px;
+    margin: 10px;
 }
 .main-header .mhimg {
-    display:inline-block;
-    margin: 10px;
+    display: flex;
+    margin: 5px;
     border-style: solid;
     border-width: 3px;
     border-color: #494540;
@@ -26,13 +37,20 @@
 }
 .main-header .mhet {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #494540;
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
-    margin:10px;
-    font-size: 24px;
+    margin:8px;
+    font-size: 20px;
+    font-style: bold;
     border-style: solid;
     border-width: 3px;
     border-color: #494540;
     border-radius: 10px;
+}
+.main-header .mhet:hover {
+    background-color: #d2c8ba;
 }
