@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Metropolitano';
-    src: url("Metropolitano-Regular.ttf") format("truetype");
+    src: url("fonts/Metropolitano-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: 'Metropolitano Bold';
-    src: url("Metropolitano-Bold.ttf") format("truetype");
+    src: url("fonts/Metropolitano-Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: 'Neo Euler';
-    src: url("euler.otf") format("opentype");
+    src: url("fonts/euler.otf") format("opentype");
 }
 body {
     background-color: #f4ece1;
