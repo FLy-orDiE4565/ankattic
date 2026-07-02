@@ -12,3 +12,5 @@ However, in the near future, a log-in and profile system will be implemented for
 </p>
 <h2>Updates Page</h2>
 On the news page on Ankattic, announcements regarding the website will be made, including when the bulk of what we want the website to look like gets added, so stay tuned for updates on there!
+<h3>Notice</h3>
+<p>Although we have expressed interest about utilizing a type of artificial intelligence to optimize Ankattic's functionality, no efforts towards this website recieved any help from generative AI whatsoever.</p>
