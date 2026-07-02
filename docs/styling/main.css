@@ -36,3 +36,7 @@ nav {
     line-height: 1.6;
     color: #6d6964;
 }
+.important p a {
+    color: #494540;
+    text-decoration: underline;
+}

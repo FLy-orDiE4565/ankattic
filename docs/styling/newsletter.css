@@ -1,0 +1,33 @@
+.newsbox {
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #494540;
+    border-radius: 10px;
+}
+.newsbox .newsbox-header {
+    display: flex;
+    align-items:baseline;
+    justify-content:left;
+    margin: 5px;
+}
+.newsbox .newsbox-header h2 {
+    font-family: 'Metropolitano Bold';
+    font-size: 20px;
+}
+.newsbox .news-img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.newsbox .news-img img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
