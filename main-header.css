@@ -57,17 +57,11 @@
 .main-header .mhet:hover {
     background-color: #d2c8ba;
 }
-.main-header .main-header-logo #mhrect {
-    fill: #494540;
-    stroke: #494540;
-}
-#box {
-    fill: #494540;
-    stroke: black;
-}
+
 .main-header .main-header-logo .mhsubtext h3 {
     color: #494540;
     font-size: 12px;
     align-items:end;
     justify-content:left;
+    margin: 10px;
 }
